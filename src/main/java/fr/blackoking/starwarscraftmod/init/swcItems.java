@@ -1,5 +1,6 @@
-package fr.blackoking.starwarscraftmod.utils;
+package fr.blackoking.starwarscraftmod.init;
 
+import fr.blackoking.starwarscraftmod.utils.References;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -23,8 +24,8 @@ public class swcItems {
     public static Item SabreLaser;
 
     public void initItems() {
-        CristalKyber = new Item().setRegistryName("cristal_kyber").setUnlocalizedName("cristalkyber");
-        SabreLaser = new Item().setRegistryName("sabre_laser").setUnlocalizedName("sabrelaser");
+        CristalKyber = new Item().setRegistryName("cristalkyber").setUnlocalizedName("cristalkyber");
+        SabreLaser = new Item().setRegistryName("sabrelaser").setUnlocalizedName("sabrelaser");
     }
 
     public void registerItems() {
