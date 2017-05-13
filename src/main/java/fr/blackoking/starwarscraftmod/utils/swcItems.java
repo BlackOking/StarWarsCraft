@@ -20,18 +20,22 @@ public class swcItems {
     }
 
     public static Item CristalKyber;
+    public static Item SabreLaser;
 
     public void initItems() {
         CristalKyber = new Item().setRegistryName("cristal_kyber").setUnlocalizedName("cristalkyber");
+        SabreLaser = new Item().setRegistryName("sabre_laser").setUnlocalizedName("sabrelaser");
     }
 
     public void registerItems() {
         registerItem(CristalKyber);
+        registerItem(SabreLaser);
     }
 
     @SideOnly(Side.CLIENT)
     public void registerRenders () {
     registerRender(CristalKyber, 0);
+    registerRender(SabreLaser, 0);
     }
 
     private void registerItem(Item item) {
