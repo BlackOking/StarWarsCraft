@@ -30,8 +30,8 @@ public class swcBlocks {
 
     private void init(){
         MineraiKyberBleu = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberbleu").setUnlocalizedName("mineraikyberbleu");
-        MineraiKyberVert = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberbleu").setUnlocalizedName("mineraikyberbleu");
-        MineraiKyberRouge = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberbleu").setUnlocalizedName("mineraikyberbleu");
+        MineraiKyberVert = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikybervert").setUnlocalizedName("mineraikybervert");
+        MineraiKyberRouge = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberrouge").setUnlocalizedName("mineraikyberrouge");
     }
 
     private void registers() {
