@@ -1,0 +1,6 @@
+{
+    "parent": "swc:block/mineraikyberrouge",
+    "textures":{
+        "all": "swc:blocks/mineraikyberrouge"
+    }
+}
