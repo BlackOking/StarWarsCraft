@@ -25,22 +25,32 @@ public class swcBlocks {
     }
 
     public static Block MineraiKyberBleu;
+    public static Block MineraiKyberVert;
+    public static Block MineraiKyberRouge;
 
     private void init(){
         MineraiKyberBleu = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberbleu").setUnlocalizedName("mineraikyberbleu");
+        MineraiKyberVert = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberbleu").setUnlocalizedName("mineraikyberbleu");
+        MineraiKyberRouge = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberbleu").setUnlocalizedName("mineraikyberbleu");
     }
 
     private void registers() {
         register(MineraiKyberBleu);
+        register(MineraiKyberVert);
+        register(MineraiKyberRouge);
     }
 
     @SideOnly(Side.CLIENT)
     private void registerRenders() {
         registerRender(MineraiKyberBleu, 0);
+        registerRender(MineraiKyberVert, 0);
+        registerRender(MineraiKyberRouge, 0);
     }
 
     private void registerItemBlocks() {
         registerItemBlock(MineraiKyberBleu);
+        registerItemBlock(MineraiKyberVert);
+        registerItemBlock(MineraiKyberRouge);
     }
 
     /* */
