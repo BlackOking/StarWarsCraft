@@ -1,0 +1,6 @@
+{
+    "parent": "swc:block/mineraikybervert",
+    "textures":{
+        "all": "swc:blocks/mineraikybervert"
+    }
+}
