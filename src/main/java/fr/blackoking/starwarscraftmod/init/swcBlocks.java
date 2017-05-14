@@ -1,5 +1,6 @@
 package fr.blackoking.starwarscraftmod.init;
 
+import fr.blackoking.starwarscraftmod.StarWarsCraftMod;
 import fr.blackoking.starwarscraftmod.utils.References;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -29,9 +30,9 @@ public class swcBlocks {
     public static Block MineraiKyberRouge;
 
     private void init(){
-        MineraiKyberBleu = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberbleu").setUnlocalizedName("mineraikyberbleu");
-        MineraiKyberVert = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikybervert").setUnlocalizedName("mineraikybervert");
-        MineraiKyberRouge = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberrouge").setUnlocalizedName("mineraikyberrouge");
+        MineraiKyberBleu = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberbleu").setUnlocalizedName("mineraikyberbleu").setCreativeTab(StarWarsCraftMod.swcTab);
+        MineraiKyberVert = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikybervert").setUnlocalizedName("mineraikybervert").setCreativeTab(StarWarsCraftMod.swcTab);
+        MineraiKyberRouge = new Block(Material.ROCK).setHardness(2.0f).setResistance(1.5f).setRegistryName("mineraikyberrouge").setUnlocalizedName("mineraikyberrouge").setCreativeTab(StarWarsCraftMod.swcTab);
     }
 
     private void registers() {
