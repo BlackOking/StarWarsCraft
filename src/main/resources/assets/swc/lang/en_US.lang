@@ -1,1 +1,8 @@
+tile.mineraikyberbleu.name=Blue Kyber ore
+tile.mineraikybervert.name=Green Kyber ore
+tile.mineraikyberrouge.name=Red Kyber ore
+
 item.cristalkyber.name=Kyber Crystal
+item.sabrelaser.name=Lightsaber
+
+itemGroup.StarWarsCraft=Star Wars Craft

@@ -1,4 +1,7 @@
-tile.mineraikyberbleu.name=Minerai de Kyber
+tile.mineraikyberbleu.name=Minerai de Kyber bleu
+tile.mineraikybervert.name=Minerai de Kyber vert
+tile.mineraikyberrouge.name=Minerai de Kyber rouge
+
 item.cristalkyber.name=Cristal Kyber
 item.sabrelaser.name=Sabre Laser
 
